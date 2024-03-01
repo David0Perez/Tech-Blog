@@ -1,0 +1,18 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "making a tech-blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "David Perez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "dotnet": "^1.1.4",
+    "express-session": "^1.18.0"
+  }
+}
